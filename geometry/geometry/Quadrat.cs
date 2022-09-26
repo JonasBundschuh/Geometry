@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace geometry
+﻿namespace geometry
 {
     public class Quadrat : Geometry
     {
