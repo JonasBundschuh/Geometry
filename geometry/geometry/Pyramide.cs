@@ -20,22 +20,25 @@
         }
 
 
-
+        //Rechnung fläche
         public override float Flaeche()
         {
             float f1 = Seite1 * Seite2;
             return f1;
         }
 
+        //Rechnung Umfang
         public override float Umfang()
         {
-            float u1 = Seite1 + Seite2 + Seite3;
+            float u1 = 3 * Seite1;
             return u1;
         }
 
+
+        //Override & Print
         public override string ToString()
         {
-            return ($"Die Pyramide hat eine Flaeche von und einen Umfang von {Umfang()}");
+            return ($"Die Pyramide hat eine Flaeche von {Flaeche()} und einen Umfang von {Umfang()}");
         }
 
     }

@@ -28,7 +28,7 @@ namespace geometry
         //override + print
         public override string ToString()
         {
-            return ($"Das Dreieck hat einen Umfang von {Umfang()} und eine Fläche von {Flaeche()}");
+            return ($"Der Kreis hat einen Umfang von {Umfang()} und eine Fläche von {Flaeche()}");
         }
 
     }

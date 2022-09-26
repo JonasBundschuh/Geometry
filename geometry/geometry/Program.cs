@@ -12,6 +12,7 @@ namespace geometry
             Quadrat q = new Quadrat(5, 7);
             Kreis k = new Kreis(4);
             Quader qd = new Quader(10, 20);
+            Pyramide p = new Pyramide(10, 10, 10, 10, 10);
 
             //neue Liste erstellen
             List<Geometry> forms = new List<Geometry>();
@@ -21,17 +22,15 @@ namespace geometry
             forms.Add(d);
             forms.Add(k);
             forms.Add(qd);
+            forms.Add(p);
 
             //Liste ausgeben
             foreach (Geometry geometry in forms)
             {
                 Console.WriteLine(geometry.ToString());
-
+                Console.WriteLine("---------------------------------------------------------------------------------");
             }
-
-
             Console.ReadKey();
-
         }
     }
 }
