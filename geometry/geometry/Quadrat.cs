@@ -13,8 +13,6 @@ namespace geometry
             Seite2 = seite2;
         }
 
-        float f1 = 0;
-        float u1 = 0;
 
         public override float Flaeche()
         {
@@ -30,8 +28,7 @@ namespace geometry
 
         public override string ToString()
         {
-            Console.WriteLine($"Das Quadrat hat eine Flaeche von {f1} und einen Umfang von {u1}");
-            return ToString();
+            return ($"Das Quadrat hat eine Flaeche von {Flaeche()} und einen Umfang von {Umfang()}");
         }
 
     }

@@ -11,9 +11,10 @@ namespace geometry
 
             Quadrat q = new Quadrat(5, 7);
             List<Geometry> quadratList = new List<Geometry>();
+            quadratList.Add(q);
             foreach (Quadrat quadrat in quadratList)
             {
-                Console.WriteLine(q.ToString());
+                Console.WriteLine(quadrat.ToString());
             }
 
 
