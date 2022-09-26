@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace geometry
 {
@@ -10,6 +7,18 @@ namespace geometry
     {
         static void Main(string[] args)
         {
+
+
+            Quadrat q = new Quadrat(5, 7);
+            List<Geometry> quadratList = new List<Geometry>();
+            foreach (Quadrat quadrat in quadratList)
+            {
+                Console.WriteLine(q.ToString());
+            }
+
+
+            Console.ReadKey();
+
         }
     }
 }
